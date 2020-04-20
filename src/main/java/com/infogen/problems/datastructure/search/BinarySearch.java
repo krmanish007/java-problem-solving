@@ -1,4 +1,4 @@
-package datastructure.search;
+package com.infogen.problems.datastructure.search;
 
 import java.util.Arrays;
 
@@ -29,7 +29,7 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] a = {23, 4, 36, 3, 15};
-        System.out.println("new datastructure.BinarySearch = " + new BinarySearch().search(a, 15));
+        System.out.println("new com.infogen.problems.datastructure.BinarySearch = " + new BinarySearch().search(a, 15));
     }
 }
 

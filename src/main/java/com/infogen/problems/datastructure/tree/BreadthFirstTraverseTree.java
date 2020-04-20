@@ -1,6 +1,6 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
-import datastructure.linear.Queue;
+import com.infogen.problems.datastructure.linear.Queue;
 
 public class BreadthFirstTraverseTree<E> {
     private void traverse(Tree<E> root) {

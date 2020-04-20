@@ -1,3 +1,5 @@
+package com.infogen.problems;
+
 import java.util.Arrays;
 
 public class ArrayRotation {
@@ -19,12 +21,9 @@ public class ArrayRotation {
         System.arraycopy(A,0, lastRotatedArray, 0, A.length);
         for (int i = 0; i < K; i++) {
             currentArray[0] = lastRotatedArray[A.length-1];
-            for (int j = 1; j < A.length; j++) {
-                currentArray[j] = lastRotatedArray[j-1];
-            }
+            System.arraycopy(lastRotatedArray, 0, currentArray, 1, A.length - 1);
             System.arraycopy(currentArray,0, lastRotatedArray, 0, A.length);
         }
-
         return lastRotatedArray;
     }
 }

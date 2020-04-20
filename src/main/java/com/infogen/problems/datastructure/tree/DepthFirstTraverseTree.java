@@ -1,4 +1,4 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
 public class DepthFirstTraverseTree<E> {
     private E traverse(Tree<E> root) {

@@ -1,10 +1,11 @@
-package datastructure.linear;
+package com.infogen.problems.datastructure.linear;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Stack;
 
 public class Parenthesis {
-    private static Map<Character, Character> parenthesisBraces = new HashMap<>();
+    private static final Map<Character, Character> parenthesisBraces = new HashMap<>();
 
     public Parenthesis() {
         parenthesisBraces.put(')', '(');
@@ -40,6 +41,5 @@ public class Parenthesis {
 
         match = parenthesis.isMatch("(Hello) [} [{abs} ] asas");
         System.out.println("match = " + match);
-
     }
 }

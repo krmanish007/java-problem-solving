@@ -1,3 +1,5 @@
+package com.infogen.problems;
+
 public class FrogJump {
     public int solution(int x, int y, int d) {
         if ((y - x) % d == 0) {

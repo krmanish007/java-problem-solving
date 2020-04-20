@@ -1,4 +1,4 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
 public class BinaryTreeUtility {
     private int min(Tree<Integer> root) {

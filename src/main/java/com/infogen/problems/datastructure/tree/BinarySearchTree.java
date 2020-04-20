@@ -1,4 +1,4 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
 public class BinarySearchTree<E> {
     private int countNodes(Tree<E> root) {

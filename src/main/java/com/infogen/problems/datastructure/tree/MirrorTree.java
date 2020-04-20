@@ -1,4 +1,4 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
 public class MirrorTree<E> {
     private void mirror(Tree<E> root) {

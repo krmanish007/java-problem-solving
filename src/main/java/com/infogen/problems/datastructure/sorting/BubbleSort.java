@@ -1,4 +1,4 @@
-package datastructure.sorting;
+package com.infogen.problems.datastructure.sorting;
 
 import java.util.Arrays;
 

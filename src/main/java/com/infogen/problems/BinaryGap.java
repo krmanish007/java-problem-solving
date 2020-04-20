@@ -1,3 +1,4 @@
+package com.infogen.problems;
 
 public class BinaryGap {
     public int solution(int N) {

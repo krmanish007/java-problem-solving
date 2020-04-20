@@ -1,4 +1,4 @@
-package datastructure.tree;
+package com.infogen.problems.datastructure.tree;
 
 public class Tree<E> {
     E data;

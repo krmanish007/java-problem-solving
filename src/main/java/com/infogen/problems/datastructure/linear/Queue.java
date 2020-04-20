@@ -1,4 +1,4 @@
-package datastructure.linear;
+package com.infogen.problems.datastructure.linear;
 
 public class Queue<E> {
 
@@ -48,4 +48,8 @@ public class Queue<E> {
         System.out.println(queue.dequeue());
         System.out.println(queue.dequeue());
     }
+}
+class Element<E> {
+    E data;
+    Element<E> next;
 }

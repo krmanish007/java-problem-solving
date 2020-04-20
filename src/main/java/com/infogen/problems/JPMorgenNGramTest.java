@@ -1,3 +1,5 @@
+package com.infogen.problems;
+
 import java.text.DecimalFormat;
 import java.util.*;
 import java.util.function.Function;
@@ -69,5 +71,4 @@ class JPMorgenNGramTest {
         r.append(decimalFormat.format(currentEntry.getValue() / total));
         r.append(";");
     }
-
 }

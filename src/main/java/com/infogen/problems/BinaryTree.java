@@ -1,4 +1,6 @@
-import datastructure.tree.Tree;
+package com.infogen.problems;
+
+import com.infogen.problems.datastructure.tree.Tree;
 
 public class BinaryTree {
 

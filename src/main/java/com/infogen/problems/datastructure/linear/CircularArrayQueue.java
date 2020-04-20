@@ -1,4 +1,4 @@
-package datastructure.linear;
+package com.infogen.problems.datastructure.linear;
 
 import java.lang.reflect.Array;
 
