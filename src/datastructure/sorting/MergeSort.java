@@ -2,6 +2,7 @@ package datastructure.sorting;
 
 import java.util.Arrays;
 
+
 //divide and conquer
 //complexity is O(NLOGN), SPACE is O(N)
 public class MergeSort {

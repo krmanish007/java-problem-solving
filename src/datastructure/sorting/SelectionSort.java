@@ -2,6 +2,7 @@ package datastructure.sorting;
 
 import java.util.Arrays;
 
+
 public class SelectionSort {
     int[] sort(int[] arrayToSort) {
         for (int i = 0; i < arrayToSort.length; i++) {

@@ -19,6 +19,7 @@ public class Queue<E> {
         last = newData;
     }
 
+
     public E dequeue() {
         if (length-- == 0) {
             throw new RuntimeException("Queue is empty");

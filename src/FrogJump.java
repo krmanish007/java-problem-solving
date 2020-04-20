@@ -9,5 +9,6 @@ public class FrogJump {
     public static void main(String[] args) {
         int solution = new FrogJump().solution(Integer.MIN_VALUE, Integer.MAX_VALUE, 2);
         System.out.println("solution = " + solution);
+
     }
 }

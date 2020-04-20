@@ -11,7 +11,6 @@ public class CountNodeOfTree<E> {
 
     public static void main(String[] args) {
 
-
         int countNodes = new CountNodeOfTree<Integer>().countNodes(Tree.createSampleTree());
         System.out.println("countNodes = " + countNodes);
     }

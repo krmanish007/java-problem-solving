@@ -23,6 +23,7 @@ public class BinaryTreeUtility {
         return max(root.right);
     }
 
+
     private int depth(Tree<Integer> root) {
         if (root == null) {
             return 0;

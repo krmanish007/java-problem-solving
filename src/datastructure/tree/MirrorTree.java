@@ -15,7 +15,6 @@ public class MirrorTree<E> {
     }
 
     public static void main(String[] args) {
-
         Tree<Integer> tree = Tree.createSampleTree();
         new MirrorTree<Integer>().mirror(tree);
         System.out.println("tree = " + tree);

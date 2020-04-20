@@ -49,9 +49,7 @@ public class BinaryTree {
 
     public static void main(String[] args) {
         BinaryTree solution = new BinaryTree();
-
         int result = solution.solution(null);
-
         System.out.println("result = " + result);
     }
 }

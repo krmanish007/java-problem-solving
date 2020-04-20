@@ -40,5 +40,6 @@ public class Parenthesis {
 
         match = parenthesis.isMatch("(Hello) [} [{abs} ] asas");
         System.out.println("match = " + match);
+
     }
 }

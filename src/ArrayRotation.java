@@ -24,6 +24,7 @@ public class ArrayRotation {
             }
             System.arraycopy(currentArray,0, lastRotatedArray, 0, A.length);
         }
+
         return lastRotatedArray;
     }
 }

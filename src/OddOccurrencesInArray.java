@@ -7,7 +7,6 @@ public class OddOccurrencesInArray {
         if (A.length % 2 == 0) {
             return 1;
         }
-        //collect will return map of number and its count
         final HashMap<Integer, Integer> collect = Arrays.stream(A).collect(HashMap::new, this::accumulate, (r1, r2) -> {});
         return collect.entrySet().stream().filter(a -> a.getValue() % 2 != 0).map(Map.Entry::getKey).findAny().orElse(0);
     }

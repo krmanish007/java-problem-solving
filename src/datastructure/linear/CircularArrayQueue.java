@@ -34,13 +34,10 @@ public class CircularArrayQueue<E> {
         queue.push(5);
         queue.push(6);
         queue.push(2);
-        //queue.push(11);
-        System.out.println(queue.pop());
-        //queue.push(3);
         System.out.println(queue.pop());
         System.out.println(queue.pop());
         System.out.println(queue.pop());
-        //System.out.println(queue.pop());
+        System.out.println(queue.pop());
 
         System.out.println("queue.TAIL_INDEX = " + queue.TAIL_INDEX);
         System.out.println("queue.HEAD_INDEX = " + queue.HEAD_INDEX);

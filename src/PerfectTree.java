@@ -21,6 +21,7 @@ public class PerfectTree {
         int a[] = {1,2,3};
         int b[] = {2,1,4};
         String s = areTheyEqual(a, b);
+        
         System.out.println("s = " + s);
     }
     public int solution(Tree T) {

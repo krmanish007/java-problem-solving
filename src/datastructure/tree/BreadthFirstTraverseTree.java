@@ -13,7 +13,6 @@ public class BreadthFirstTraverseTree<E> {
 
         while (!queue.isEmpty()) {
             Tree<E> node = queue.dequeue();
-
             System.out.println("node.data = " + node);
             if (node.left != null) queue.enqueue(node.left);
             if (node.right != null) queue.enqueue(node.right);

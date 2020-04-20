@@ -9,6 +9,7 @@ public class BinarySearchTree<E> {
         return 1 + countNodes(root.left) + countNodes(root.right);
     }
 
+
     public Tree<Integer> addNode(Tree<Integer> head, Tree<Integer> nodeToAdd) {
         if (head == null) {
             return nodeToAdd;

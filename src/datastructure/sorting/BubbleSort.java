@@ -2,6 +2,7 @@ package datastructure.sorting;
 
 import java.util.Arrays;
 
+
 //compare two adjacent one, see if there was any swap, otherwise break
 //requires an extra loop to check if nothing has changed
 public class BubbleSort {

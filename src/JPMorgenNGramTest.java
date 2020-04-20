@@ -6,8 +6,6 @@ import java.util.stream.IntStream;
 
 //tuple of prediction sorted high to low (max of 3 decimal place), or pad with 0
 //same prediction sored alphabetically
-
-
 class JPMorgenNGramTest {
     public static List<String> ngrams(String[] words, int size) {
 

@@ -9,6 +9,7 @@ public class TreeNodeCount<E> {
         return 1 + count(root.left) + count(root.right);
     }
 
+
     public static void main(String[] args) {
         System.out.println("new BinaryTree<Integer>() = " + new TreeNodeCount<Integer>().count(Tree.createSampleTree()));
     }

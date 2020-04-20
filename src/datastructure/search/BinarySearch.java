@@ -32,3 +32,4 @@ public class BinarySearch {
         System.out.println("new datastructure.BinarySearch = " + new BinarySearch().search(a, 15));
     }
 }
+

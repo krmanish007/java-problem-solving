@@ -14,7 +14,6 @@ public class DepthFirstTraverseTree<E> {
     }
 
     public static void main(String[] args) {
-
         Integer traverse = new DepthFirstTraverseTree<Integer>().traverse(Tree.createSampleTree());
         System.out.println("traverse = " + traverse);
     }

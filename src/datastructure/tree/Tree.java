@@ -42,6 +42,7 @@ public class Tree<E> {
                 '}';
     }
 
+
     public static Tree<Integer> createSampleTree() {
         Tree<Integer> node4 = new Tree<>(1);
         node4.right = new Tree<>(10);
