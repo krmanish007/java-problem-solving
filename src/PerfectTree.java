@@ -73,5 +73,4 @@ public class PerfectTree {
         }
         return perfectBinaryTree;
     }
-
 }
