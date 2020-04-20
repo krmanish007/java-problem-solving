@@ -2,7 +2,6 @@ package com.infogen.problems;
 
 public class ReverseString {
 
-
     private static String reverse(final String input) {
         return new StringBuilder(input)
                 .reverse()
